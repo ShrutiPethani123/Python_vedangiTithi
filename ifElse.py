@@ -119,3 +119,25 @@ If  is even and greater than 20 print Not Weird
 
 
 '''
+
+n = int(input("Enter Rupeess:"))
+
+n2000=0
+n500=0
+n100=0
+n50=0
+n10=0
+n1=0
+
+
+if n>=2000:
+    n2000 = int(n/2000)
+    # n = n - n2000*2000
+    n=n%2000
+
+if n>=500:
+    n500 = int(n/500)
+    n=n%500
+
+print("2000: ",n2000)
+print("500: ",n500)
