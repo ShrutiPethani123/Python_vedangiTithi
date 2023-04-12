@@ -61,14 +61,28 @@ for i in range(4):
 
 6.
 
-*
-**
-* *
-*  *
-*****
+* * * * *
+*       * 
+*       *
+*       *
+* * * * *
 
 
 '''
+
+# 6.
+n=15
+for i in range(0,n):
+    for j in range(0,n):
+        if i==0 or j==0 or i==n-1 or j==n-1 or i==j or i+j==n-1:
+            print('*',end="")
+        else:
+            print(' ',end="")
+    print()
+
+
+
+
 
 # 3.
 # for i in range(1,5):
@@ -77,11 +91,11 @@ for i in range(4):
 #     print()
 
 # 3.
-for i in range(1,5):
-    k=i
-    for j in range(1,5):
-        print(k,end=" ")
-        k=k+i  
-    print()
+# for i in range(1,5):
+#     k=i
+#     for j in range(1,5):
+#         print(k,end=" ")
+#         k=k+i  
+#     print()
 
 
